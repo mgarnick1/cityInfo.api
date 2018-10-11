@@ -9,3 +9,4 @@ C:\Users\mgarn\OneDrive\Desktop\html and Javascript\C# folder\CityInfo\CityInfo.
 C:\Users\mgarn\OneDrive\Desktop\html and Javascript\C# folder\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.AssemblyInfo.cs
 C:\Users\mgarn\OneDrive\Desktop\html and Javascript\C# folder\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.dll
 C:\Users\mgarn\OneDrive\Desktop\html and Javascript\C# folder\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.pdb
+C:\Users\mgarn\OneDrive\Desktop\html and Javascript\C# folder\CityInfo\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.0\nlog.config
