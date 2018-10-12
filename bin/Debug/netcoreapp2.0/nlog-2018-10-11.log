@@ -1,0 +1,84 @@
+2018-10-11 20:14:54.5190|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/  
+2018-10-11 20:14:54.6796|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 184.308ms 200 
+2018-10-11 20:14:54.8224|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/favicon.ico  
+2018-10-11 20:14:54.8224|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.3329ms 200 
+2018-10-11 20:15:33.4979|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/  
+2018-10-11 20:15:33.4979|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:52179/  0
+2018-10-11 20:15:34.0690|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 670.0654ms 200 
+2018-10-11 20:15:34.5772|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 963.0269ms 200 
+2018-10-11 20:15:34.6523|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/favicon.ico  
+2018-10-11 20:15:34.7316|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94.2046ms 200 
+2018-10-11 20:16:05.2452|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/api/testdatabase application/json 
+2018-10-11 20:16:06.8260|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-10-11 20:22:40.7438|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/api/testdatabase application/json 
+2018-10-11 20:22:41.6825|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-10-11 20:22:42.1537|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 1252.9016ms
+2018-10-11 20:22:42.4192|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-10-11 20:22:42.5840|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1865.4988ms 500 text/html; charset=utf-8
+2018-10-11 20:22:57.2880|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/  
+2018-10-11 20:22:57.4011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 305.6748ms 200 
+2018-10-11 20:22:57.5381|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/favicon.ico  
+2018-10-11 20:22:57.5990|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.591ms 200 
+2018-10-11 20:23:16.3011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/api/testdatabase application/json 
+2018-10-11 20:23:16.3244|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-10-11 20:24:16.3380|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 60022.9384ms
+2018-10-11 20:24:16.5632|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-10-11 20:24:16.8411|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 60471.7482ms 500 text/html; charset=utf-8
+2018-10-11 20:25:31.0467|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/  
+2018-10-11 20:25:31.0719|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:52179/  0
+2018-10-11 20:25:31.1174|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/api/testdatabase application/json 
+2018-10-11 20:25:31.4853|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 409.8666ms 200 
+2018-10-11 20:25:31.6809|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 696.743ms 200 
+2018-10-11 20:25:31.8550|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/favicon.ico  
+2018-10-11 20:25:31.8792|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.544ms 200 
+2018-10-11 20:25:33.0589|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-10-11 20:27:11.7629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:52179/  0
+2018-10-11 20:27:11.7629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/  
+2018-10-11 20:27:11.9048|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 245.6638ms 200 
+2018-10-11 20:27:12.0125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 367.0976ms 200 
+2018-10-11 20:27:12.1509|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/favicon.ico  
+2018-10-11 20:27:12.1694|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.9702ms 200 
+2018-10-11 20:30:39.3470|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/  
+2018-10-11 20:30:39.3470|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:52179/  0
+2018-10-11 20:30:39.5523|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 396.4534ms 200 
+2018-10-11 20:30:39.7366|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 600.4643ms 200 
+2018-10-11 20:30:39.9072|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/favicon.ico  
+2018-10-11 20:30:39.9402|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36.0012ms 200 
+2018-10-11 20:30:46.2328|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/api/testdatabase application/json 
+2018-10-11 20:30:47.5256|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-10-11 20:35:25.8431|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/  
+2018-10-11 20:35:25.8290|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:52179/  0
+2018-10-11 20:35:26.1446|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 307.3955ms 200 
+2018-10-11 20:35:26.3244|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 568.0298ms 200 
+2018-10-11 20:35:26.4930|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/favicon.ico  
+2018-10-11 20:35:26.5126|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.3385ms 200 
+2018-10-11 20:35:29.5786|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:52179/api/testdatabase application/json 
+2018-10-11 20:35:31.1549|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-10-11 20:35:45.4212|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1,917ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CityInfoDB];
+2018-10-11 20:35:46.0221|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (583ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [CityInfoDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2018-10-11 20:35:46.4761|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (163ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Description] nvarchar(200) NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2018-10-11 20:35:46.5207|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PointsOfInterest] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [CityId] int NOT NULL,
+    CONSTRAINT [PK_PointsOfInterest] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_PointsOfInterest_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE
+);
+2018-10-11 20:35:46.5207|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
+2018-10-11 20:35:46.5820|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) with arguments ((null)) - ModelState is Valid
+2018-10-11 20:35:46.6026|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2018-10-11 20:35:46.6219|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 16953.2982ms
+2018-10-11 20:35:46.6438|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17151.6333ms 200 
