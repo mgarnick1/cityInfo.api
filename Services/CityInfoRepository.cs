@@ -44,7 +44,8 @@ namespace CityInfo.API.Services
 
 		public PointOfInterest GetPointOfInterestForCity(int cityId, int pointOfInterestId)
 		{
-			return _context.PointsOfInterest.Where(p => p.CityId == cityId && p.Id == pointOfInterestId).FirstOrDefault();
+			return _context.PointsOfInterest
+				.Where(p => p.CityId == cityId && p.Id == pointOfInterestId).FirstOrDefault();
 		}
 
 		public IEnumerable<PointOfInterest> GetPointsOfInterestForCity(int cityId)

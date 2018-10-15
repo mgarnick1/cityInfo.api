@@ -52,7 +52,7 @@ namespace CityInfo.API
 #else
 			services.AddTransient<IMailService, CloudMailService>();
 #endif
-			var connectionString = Startup.Configuration["connectionString:cityInfoDBConnectionString"];
+			var connectionString = Startup.Configuration["connectionStrings:cityInfoDBConnectionString"];
 			services.AddDbContext<CityInfoContext>(o => o.UseSqlServer(connectionString));
 
 			services.AddScoped<ICityInfoRepository, CityInfoRepository>();
