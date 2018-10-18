@@ -35,6 +35,8 @@ namespace CityInfo.API
 		// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.AddCors();
+
 			services.AddMvc()
 				.AddMvcOptions(o => o.OutputFormatters.Add(
 					new XmlDataContractSerializerOutputFormatter()));
@@ -92,6 +94,8 @@ namespace CityInfo.API
 			});
 
 			app.UseMvc();
+
+			app.UseCors(builder => builder.WithOrigins("http://localhost:3000"));
 
 			app.Run(async (context) =>
 			{
