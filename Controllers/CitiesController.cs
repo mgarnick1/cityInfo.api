@@ -1,15 +1,18 @@
 ﻿using AutoMapper;
 using CityInfo.API.Models;
 using CityInfo.API.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace CityInfo.API.Controllers
 {
 	[Route("api/cities")]
+	[EnableCors("CorsPolicy")]
 	public class CitiesController : Controller
 	{
 

@@ -8,21 +8,23 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json.Serialization;
 using NLog.Extensions.Logging;
+using static System.Net.WebRequestMethods;
 
 namespace CityInfo.API
 {
 	public class Startup
 	{
-		public static IConfiguration Configuration	{ get; private set; }
+		public static IConfiguration Configuration { get; private set; }
 
 		//public Startup(IHostingEnvironment env)
 		//{
 		//	var builder = new ConfigurationBuilder()
 		//		.SetBasePath(env.ContentRootPath)
 		//		.AddJsonFile("appSettings.json", optional: false, reloadOnChange: true)
-				//.AddJsonFile($"appSettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true );
+		//.AddJsonFile($"appSettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true );
 		//	Configuration = builder.Build();
 		//}
 
@@ -30,12 +32,19 @@ namespace CityInfo.API
 		{
 			Configuration = configuration;
 		}
-		
+
 		// This method gets called by the runtime. Use this method to add services to the container.
 		// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 		public void ConfigureServices(IServiceCollection services)
 		{
-			services.AddCors();
+			services.AddCors(options =>
+			{
+				options.AddPolicy("CorsPolicy",
+					builder => builder.AllowAnyOrigin()
+					.AllowAnyMethod()
+					.AllowAnyHeader()
+					.AllowCredentials());
+			});
 
 			services.AddMvc()
 				.AddMvcOptions(o => o.OutputFormatters.Add(
@@ -73,8 +82,8 @@ namespace CityInfo.API
 			if (env.IsDevelopment())
 			{
 				app.UseDeveloperExceptionPage();
-			} 
-			else 
+			}
+			else
 			{
 				app.UseExceptionHandler();
 			}
@@ -92,10 +101,11 @@ namespace CityInfo.API
 				cfg.CreateMap<Models.PointOfInterestForUpdateDto, Entities.PointOfInterest>();
 				cfg.CreateMap<Entities.PointOfInterest, Models.PointOfInterestForUpdateDto>();
 			});
+			app.UseCors("CorsPolicy");
 
 			app.UseMvc();
 
-			app.UseCors(builder => builder.WithOrigins("http://localhost:3000"));
+
 
 			app.Run(async (context) =>
 			{
